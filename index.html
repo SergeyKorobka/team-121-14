@@ -6,6 +6,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>promotion</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
@@ -14,68 +31,64 @@
       <a href="">contacts</a>
     </header>
     <main>
-      <section>
-        <h2>Price Table</h2>
-        <p>We offer competitive price</p>
-        <ul>
-          <li>
-            <h3>Free</h3>
-            <p>Brief price description</p>
-            <p>0</p>
-            <p>&dollar;</p>
-            <p>Per / month</p>
-            <ul>
-              <li>
-                <p>Only 2 Operators</p>
-              </li>
-              <li>
-                <p>Notifications</p>
-              </li>
-              <li>
-                <p>Landing Pages</p>
-              </li>
-            </ul>
-            <button type="button">Order Now</button>
-          </li>
-          <li>
-            <h3>Standard</h3>
-            <p>Brief price description</p>
-            <p>0</p>
-            <p>&dollar;</p>
-            <p>Per / month</p>
-            <ul>
-              <li>
-                <p>5+ Operators</p>
-              </li>
-              <li>
-                <p>Notifications</p>
-              </li>
-              <li>
-                <p>Landing Pages</p>
-              </li>
-            </ul>
-            <button type="button">Order Now</button>
-          </li>
-          <li>
-            <h3>Premium</h3>
-            <p>Brief price description</p>
-            <p>0</p>
-            <p>&dollar;</p>
-            <p>Per / month</p>
-            <ul>
-              <li>
-                <p>10+ Operators</p>
-              </li>
-              <li>
-                <p>Notifications</p>
-              </li>
-              <li>
-                <p>Landing Pages</p>
-              </li>
-            </ul>
-            <button type="button">Order Now</button>
-          </li>
-        </ul>
+      <section class="section section-price">
+        <div class="container">
+          <h2 class="section-title price-title">Price Table</h2>
+          <p class="section-subtitle">We offer competitive price</p>
+          <ul class="price-list">
+            <li class="price-card">
+              <h3 class="price-card-title">Free</h3>
+              <p class="price-card-subtitle">Brief price description</p>
+              <div class="price-wrapper">
+                <p class="price-card-digit">0</p>
+                <div class="price-card-inner">
+                  <p class="price-card-currency">&dollar;</p>
+                  <p class="price-card-period">Per / month</p>
+                </div>
+              </div>
+              <ul class="price-card-list">
+                <li class="price-card-item">Only 2 Operators</li>
+                <li class="price-card-item">Notifications</li>
+                <li class="price-card-item">Landing Pages</li>
+              </ul>
+              <button class="price-card-btn" type="button">Order Now</button>
+            </li>
+            <li class="price-card">
+              <h3 class="price-card-title">Standard</h3>
+              <p class="price-card-subtitle">Brief price description</p>
+              <div class="price-wrapper">
+                <p class="price-card-digit">5</p>
+                <div class="price-card-inner">
+                  <p class="price-card-currency">&dollar;</p>
+                  <p class="price-card-period">Per / month</p>
+                </div>
+              </div>
+              <ul class="price-card-list">
+                <li class="price-card-item">5+ Operators</li>
+                <li class="price-card-item">Notifications</li>
+                <li class="price-card-item">Landing Pages</li>
+              </ul>
+              <button class="price-card-btn" type="button">Order Now</button>
+            </li>
+            <li class="price-card">
+              <h3 class="price-card-title">Premium</h3>
+              <p class="price-card-subtitle">Brief price description</p>
+              <div class="price-wrapper">
+                <p class="price-card-digit">10</p>
+                <div class="price-card-inner">
+                  <p class="price-card-currency">&dollar;</p>
+                  <p class="price-card-period">Per / month</p>
+                </div>
+              </div>
+              <ul class="price-card-list">
+                <li class="price-card-item">10+ Operators</li>
+                <li class="price-card-item">Notifications</li>
+                <li class="price-card-item">Landing Pages</li>
+              </ul>
+              <button class="price-card-btn" type="button">Order Now</button>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>
